@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="public void LoadForm&#xD;&#xA;{&#xD;&#xA;   InitControl();&#xD;&#xA;   SetControl();&#xD;&#xA;   SetAuthority();&#xD;&#xA;   SetData();&#xD;&#xA;}">
+    <Position X="7.073" Y="2.948" Height="1.219" Width="1.7" />
+  </Comment>
+  <Class Name="TemplateMethodPattern.Form">
+    <Position X="5.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethodPattern.BaseForm">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAABAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BaseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethodPattern.ConcreteForm1">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteForm1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethodPattern.ConcreteForm2">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteForm1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

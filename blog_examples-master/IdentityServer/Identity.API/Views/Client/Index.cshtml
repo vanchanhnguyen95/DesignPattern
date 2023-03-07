@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Identity.API.Models.ClientViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientUri)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enabled)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AbsoluteRefreshTokenLifetime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccessTokenLifetime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AllowAccessTokensViaBrowser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AllowOfflineAccess)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RefreshTokenExpiration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Updated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastAccessed)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientUri)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enabled)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AbsoluteRefreshTokenLifetime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccessTokenLifetime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AllowAccessTokensViaBrowser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AllowOfflineAccess)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefreshTokenExpiration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Updated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastAccessed)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
